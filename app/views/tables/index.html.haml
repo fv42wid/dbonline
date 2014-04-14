@@ -2,7 +2,7 @@
   %h1 Tables
 
   Load your csv
-  = form_tag('tables/new') do
+  = form_tag(new_table_path, :method => 'get') do
     %span.btn.btn-default.btn-file
       %input{:type => 'file'}
       %button.btn.btn-default{:type => 'submit'} Load
