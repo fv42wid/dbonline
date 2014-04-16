@@ -1,9 +1,9 @@
-th.hearderSortUp {
+th.headerSortUp {
     /*background-image: url(small_asc.gif);*/
     background-color: #339bb9;
 }
 
 th.headerSortDown {
-    /*background-image: url(small_desc.gif);*/
+    /*background-image: url(icon-arrow-down.png);*/
     background-color: #339bb9;
 }
