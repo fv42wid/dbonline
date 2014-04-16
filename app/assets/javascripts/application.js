@@ -13,3 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(document).ready(function() {
+
+    $('#main_data').tablesorter();
+
+    $('th').click(function() {
+        //if(this.className == '') {
+        $(this).addClass('headerSortDown');
+
+
+    });
+
+});

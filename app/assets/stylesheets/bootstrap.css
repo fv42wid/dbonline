@@ -2146,8 +2146,8 @@ table {
 
 .table-striped tbody > tr:nth-child(odd) > td,
 .table-striped tbody > tr:nth-child(odd) > th {
-    /*background-color: #f9f9f9;*/
-    background-color: #149bdf;
+    background-color: #f9f9f9;
+    /*background-color: #149bdf;*/
 }
 
 .table-hover tbody tr:hover > td,
@@ -2289,7 +2289,7 @@ table th[class*="span"],
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("../img/glyphicons-halflings.png");
+    background-image: url("../assets/glyphicons-halflings.png");
     background-position: 14px 14px;
     background-repeat: no-repeat;
 }
@@ -2313,7 +2313,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-    background-image: url("../img/glyphicons-halflings-white.png");
+    background-image: url("../assets/glyphicons-halflings-white.png");
 }
 
 .icon-glass {
