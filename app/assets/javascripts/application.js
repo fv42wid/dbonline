@@ -41,6 +41,20 @@ $(document).ready(function() {
 
     });
 
+    var $rows = $('#main_data tbody tr');
     //Filter rows based on search input fields
+    $('#search1').keyup(function() {
+        var searchText = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+        //console.log(searchText);
+        //alert($(this).val());
+        //$('td:contains(searchText)').parent().toggle();
+        console.log(searchText);
+        $rows.show().filter(function() {
+            var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+            return !~text.indexOf(searchText);
+
+        }).hide();
+
+    });
 
 });
