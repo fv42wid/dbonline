@@ -51,6 +51,8 @@ $(document).ready(function() {
         //console.log(searchText);
         $('tr').show();
         $rows.show().filter(function() {
+            //see if i can delete the .show() above now that the $('tr').show() is above
+            
             var text = $(this).text().replace(/\s+/g, ' ');
             //alert(text);
             return !~text.indexOf(searchText);
