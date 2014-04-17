@@ -41,19 +41,21 @@ $(document).ready(function() {
 
     });
 
-    var $rows = $('#main_data tbody tr');
+    var $rows = $('#main_data tbody .cell1');
     //Filter rows based on search input fields
     $('#search1').keyup(function() {
-        var searchText = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+        var searchText = $(this).val().replace(/ +/g, ' ');
         //console.log(searchText);
         //alert($(this).val());
         //$('td:contains(searchText)').parent().toggle();
-        console.log(searchText);
+        //console.log(searchText);
+        $('tr').show();
         $rows.show().filter(function() {
-            var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+            var text = $(this).text().replace(/\s+/g, ' ');
+            //alert(text);
             return !~text.indexOf(searchText);
 
-        }).hide();
+        }).parent().hide();
 
     });
 
