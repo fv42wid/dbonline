@@ -108,9 +108,7 @@ $(document).ready(function() {
         var element = $(this);
         var searchID = '#search' + fieldNumber;
         var columnID = '.cell' + fieldNumber;
-        var hidden = filterColumn(element, searchID, columnID);
-        //console.log(hidden);
-        //alert(cellID);
+        filterColumn(element, searchID, columnID);
 
     });
 
@@ -123,12 +121,10 @@ $(document).ready(function() {
 
         $('tr').show();
         $rows.filter(function() {
-            //console.log($(this));
+
             var text = $(this).text().replace(/\s+/g, ' ');
-            console.log(text);
             return !~text.indexOf(searchText);
         }).parent().hide();
-        //console.log($rows);
     }
 
 });
