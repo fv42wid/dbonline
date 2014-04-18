@@ -52,6 +52,7 @@ $(document).ready(function() {
 
     });
 
+    //TODO find way to keep filters applied from fields not triggering this function
 
     function filterColumn(element, searchField, tableColumn) {
 
