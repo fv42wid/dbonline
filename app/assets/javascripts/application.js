@@ -41,10 +41,17 @@ $(document).ready(function() {
 
     });
 
+    //TODO refactor this so it is one function that takes field as an argument
+    /*get search field id
+    *regex to variable, strip all alpha chars so only number is left
+    * pass number to function
+    * filter only cols matching that number
+    */
 
     //Filter rows based on search input fields
     $('#search1').keyup(function() {
 
+        alert($(this).attr('id'));
         var $rows1 = $('#main_data tbody .cell1');
         var searchText = $(this).val().replace(/ +/g, ' ');
         $('tr').show();
