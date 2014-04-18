@@ -48,12 +48,13 @@ $(document).ready(function() {
     * filter only cols matching that number
     */
 
+/*
     //Filter rows based on search input fields
     $('#search1').keyup(function() {
 
-        alert($(this).attr('id'));
         var $rows1 = $('#main_data tbody .cell1');
         var searchText = $(this).val().replace(/ +/g, ' ');
+        console.log($rows1);
         $('tr').show();
 
         $rows1.filter(function() {
@@ -65,7 +66,7 @@ $(document).ready(function() {
 
     });
 
-
+/*
     //Filter rows based on search input fields
     $('#search2').keyup(function() {
 
@@ -89,14 +90,45 @@ $(document).ready(function() {
         var $rows3 = $('#main_data tbody .cell3');
         var searchText = $(this).val().replace(/ +/g, ' ');
         $('tr').show();
-
+        //console.log($(this));
         $rows3.filter(function() {
-
+            console.log($(this));
             var text = $(this).text().replace(/\s+/g, ' ');
             return !~text.indexOf(searchText);
 
         }).parent().hide();
 
     });
+*/
+
+    //refactored search
+    $('.colSearch').keyup(function() {
+
+        var fieldNumber = $(this).attr('id').substr(6);
+        var element = $(this);
+        var searchID = '#search' + fieldNumber;
+        var columnID = '.cell' + fieldNumber;
+        var hidden = filterColumn(element, searchID, columnID);
+        //console.log(hidden);
+        //alert(cellID);
+
+    });
+
+
+    function filterColumn(element, searchField, tableColumn) {
+
+        var rowSelect = "#main_data tbody " + tableColumn;
+        var $rows = $(rowSelect);
+        var searchText = $(element).val().replace(/ +/g, ' ');
+
+        $('tr').show();
+        $rows.filter(function() {
+            //console.log($(this));
+            var text = $(this).text().replace(/\s+/g, ' ');
+            console.log(text);
+            return !~text.indexOf(searchText);
+        }).parent().hide();
+        //console.log($rows);
+    }
 
 });
