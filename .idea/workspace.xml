@@ -5,7 +5,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tables/new.html.haml" afterPath="$PROJECT_DIR$/app/views/tables/new.html.haml" />
     </list>
     <ignored path="dbonline.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,19 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tables/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="19" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.93939394">
+            <state line="74" column="19" selection-start="1704" selection-end="1704" vertical-scroll-proportion="-19.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="23" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
+            <state line="52" column="13" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.56647396">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -102,8 +101,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/tables/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
     </option>
   </component>
@@ -774,19 +773,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/tables/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="23" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="74" column="19" selection-start="1704" selection-end="1704" vertical-scroll-proportion="-19.375">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tables/new.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="19" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.93939394">
-          <folding />
+        <state line="52" column="13" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.56647396">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

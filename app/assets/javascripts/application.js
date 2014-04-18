@@ -50,7 +50,7 @@ $(document).ready(function() {
         //$('td:contains(searchText)').parent().toggle();
         //console.log(searchText);
         $('tr').show();
-        $rows.show().filter(function() {
+        $rows.filter(function() {
             //see if i can delete the .show() above now that the $('tr').show() is above
             
             var text = $(this).text().replace(/\s+/g, ' ');
