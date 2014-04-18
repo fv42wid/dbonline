@@ -41,66 +41,6 @@ $(document).ready(function() {
 
     });
 
-    //TODO refactor this so it is one function that takes field as an argument
-    /*get search field id
-    *regex to variable, strip all alpha chars so only number is left
-    * pass number to function
-    * filter only cols matching that number
-    */
-
-/*
-    //Filter rows based on search input fields
-    $('#search1').keyup(function() {
-
-        var $rows1 = $('#main_data tbody .cell1');
-        var searchText = $(this).val().replace(/ +/g, ' ');
-        console.log($rows1);
-        $('tr').show();
-
-        $rows1.filter(function() {
-
-            var text = $(this).text().replace(/\s+/g, ' ');
-            return !~text.indexOf(searchText);
-
-        }).parent().hide();
-
-    });
-
-/*
-    //Filter rows based on search input fields
-    $('#search2').keyup(function() {
-
-        var $rows2 = $('#main_data tbody .cell2');
-        var searchText = $(this).val().replace(/ +/g, ' ');
-        $('tr').show();
-
-        $rows2.filter(function() {
-
-            var text = $(this).text().replace(/\s+/g, ' ');
-            return !~text.indexOf(searchText);
-
-        }).parent().hide();
-
-    });
-
-
-    //Filter rows based on search input fields
-    $('#search3').keyup(function() {
-
-        var $rows3 = $('#main_data tbody .cell3');
-        var searchText = $(this).val().replace(/ +/g, ' ');
-        $('tr').show();
-        //console.log($(this));
-        $rows3.filter(function() {
-            console.log($(this));
-            var text = $(this).text().replace(/\s+/g, ' ');
-            return !~text.indexOf(searchText);
-
-        }).parent().hide();
-
-    });
-*/
-
     //refactored search
     $('.colSearch').keyup(function() {
 
