@@ -41,20 +41,51 @@ $(document).ready(function() {
 
     });
 
-    var $rows = $('#main_data tbody .cell1');
+
     //Filter rows based on search input fields
     $('#search1').keyup(function() {
+
+        var $rows1 = $('#main_data tbody .cell1');
         var searchText = $(this).val().replace(/ +/g, ' ');
-        //console.log(searchText);
-        //alert($(this).val());
-        //$('td:contains(searchText)').parent().toggle();
-        //console.log(searchText);
         $('tr').show();
-        $rows.filter(function() {
-            //see if i can delete the .show() above now that the $('tr').show() is above
-            
+
+        $rows1.filter(function() {
+
             var text = $(this).text().replace(/\s+/g, ' ');
-            //alert(text);
+            return !~text.indexOf(searchText);
+
+        }).parent().hide();
+
+    });
+
+
+    //Filter rows based on search input fields
+    $('#search2').keyup(function() {
+
+        var $rows2 = $('#main_data tbody .cell2');
+        var searchText = $(this).val().replace(/ +/g, ' ');
+        $('tr').show();
+
+        $rows2.filter(function() {
+
+            var text = $(this).text().replace(/\s+/g, ' ');
+            return !~text.indexOf(searchText);
+
+        }).parent().hide();
+
+    });
+
+
+    //Filter rows based on search input fields
+    $('#search3').keyup(function() {
+
+        var $rows3 = $('#main_data tbody .cell3');
+        var searchText = $(this).val().replace(/ +/g, ' ');
+        $('tr').show();
+
+        $rows3.filter(function() {
+
+            var text = $(this).text().replace(/\s+/g, ' ');
             return !~text.indexOf(searchText);
 
         }).parent().hide();
