@@ -53,6 +53,9 @@ $(document).ready(function() {
     });
 
     //TODO find way to keep filters applied from fields not triggering this function
+    //move $('tr').show() to keyup() function above
+    //store each search param in a global array
+    //call filterColumn() for each value in the global array
 
     function filterColumn(element, tableColumn) {
 
