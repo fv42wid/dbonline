@@ -48,13 +48,13 @@ $(document).ready(function() {
         var element = $(this);
         var searchID = '#search' + fieldNumber;
         var columnID = '.cell' + fieldNumber;
-        filterColumn(element, searchID, columnID);
+        filterColumn(element, columnID);
 
     });
 
     //TODO find way to keep filters applied from fields not triggering this function
 
-    function filterColumn(element, searchField, tableColumn) {
+    function filterColumn(element, tableColumn) {
 
         var rowSelect = "#main_data tbody " + tableColumn;
         var $rows = $(rowSelect);
