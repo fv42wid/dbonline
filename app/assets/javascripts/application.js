@@ -25,14 +25,12 @@ $(document).ready(function() {
         var header = $(this);
 
         if(header.hasClass('headerSortDown')) {
-            //$(this).removeClass('headerSortDown');
             $('th').removeClass();
             $('i').remove();
             $(this).addClass('headerSortUp');
             $('<i class="icon-arrow-up"></i>').appendTo(header.find('div:first'));
 
         } else {
-            //$(this).removeClass('headerSortUp');
             $('th').removeClass();
             $('i').remove();
             $(this).addClass('headerSortDown');
@@ -42,39 +40,41 @@ $(document).ready(function() {
     });
 
     //refactored search
-    $('.colSearch').keyup(function() {
-
-        var fieldNumber = $(this).attr('id').substr(6);
-        var element = $(this);
-        var searchID = '#search' + fieldNumber;
-        var columnID = '.cell' + fieldNumber;
-        filterColumn(element, columnID);
-
-    });
-
-    //TODO find way to keep filters applied from fields not triggering this function
-    //move $('tr').show() to keyup() function above
-    //store each search param in a global array
-    //call filterColumn() for each value in the global array
 
     //global object to hold all filters
     var allFilters = new Object();
 
-    function filterColumn(element, tableColumn) {
+    $('.colSearch').keyup(function() {
 
-        var rowSelect = "#main_data tbody " + tableColumn;
-        var $rows = $(rowSelect);
-        var searchText = $(element).val().replace(/ +/g, ' ');
+        //attain search field and column to be searched
+        var fieldNumber = $(this).attr('id').substr(6);
+        var element = $(this);
+        var columnID = '.cell' + fieldNumber;
 
         //save search params
-        allFilters[element.attr('id')] = searchText;
+        allFilters[columnID] = element;
 
+        //reshows all trs that have been hidden
+        //when search params have been removed
         $('tr').show();
-        $rows.filter(function() {
 
-            var text = $(this).text().replace(/\s+/g, ' ');
-            return !~text.indexOf(searchText);
-        }).parent().hide();
-    }
+        //loop through each search attribute
+        //saved in allFilters
+        $.each(allFilters, function(key, value) {
+
+            var rowSelect = "#main_data tbody " + key;
+            var $rows = $(rowSelect).filter(':visible');
+
+            var searchText = $(value).val().replace(/ +/g, ' ');
+
+            $rows.filter(function() {
+
+                var text = $(this).text().replace(/\s+/g, ' ');
+                return !~text.indexOf(searchText);
+            }).parent().hide();
+
+        });
+
+    });
 
 });
