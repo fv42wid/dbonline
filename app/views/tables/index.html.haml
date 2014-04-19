@@ -2,9 +2,9 @@
   %h1 Tables
 
   Load your csv
-  = form_tag(new_table_path, :method => 'get') do
+  = form_tag(new_table_path, :method => 'get', :multipart => 'true') do
     %span.btn.btn-default.btn-file
-      %input{:type => 'file'}
+      %input{:type => 'file', :name=> 'file'}
       %button.btn.btn-default{:type => 'submit'} Load
 
 

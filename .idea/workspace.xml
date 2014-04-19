@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tables/index.html.haml" afterPath="$PROJECT_DIR$/app/views/tables/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tables/new.html.haml" afterPath="$PROJECT_DIR$/app/views/tables/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tables_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
     </list>
     <ignored path="dbonline.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397832202598" ignored="false" />
     <file path="/Gemfile" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397405691715" ignored="false" />
     <file path="/routes.rb" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397418012502" ignored="false" />
-    <file path="/tables_controller.rb" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397919908078" ignored="false" />
+    <file path="/tables_controller.rb" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397943437175" ignored="false" />
     <file path="/application.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397418166635" ignored="false" />
-    <file path="/index.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397439834181" ignored="false" />
-    <file path="/new.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397847024836" ignored="false" />
+    <file path="/index.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397938127047" ignored="false" />
+    <file path="/new.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397938771363" ignored="false" />
     <file path="/bootstrap.css" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397612239195" ignored="false" />
     <file path="/application.js" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397919259152" ignored="false" />
     <file path="/application.css" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397653104305" ignored="false" />
+    <file path="/create.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397943307156" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,27 +41,25 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tables/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="42" selection-start="884" selection-end="884" vertical-scroll-proportion="-8.375">
+            <state line="6" column="45" selection-start="195" selection-end="195" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="create.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tables/create.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="36" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.67196816">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="53" column="40" selection-start="1291" selection-end="1291" vertical-scroll-proportion="-13.625">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tables_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tables_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/tables_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="44" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="15" column="41" selection-start="188" selection-end="188" vertical-scroll-proportion="0.54744524">
               <folding />
             </state>
           </provider>
@@ -84,20 +85,21 @@
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/tables/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jquery.tablesorter.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/tables/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/tables/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tables/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/tables/create.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="97" />
+    <option name="x" value="94" />
+    <option name="y" value="85" />
     <option name="width" value="968" />
     <option name="height" value="648" />
   </component>
@@ -408,6 +410,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -599,11 +608,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="97" width="968" height="648" extended-state="0" />
-    <editor active="true" />
+    <frame x="94" y="85" width="968" height="648" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1923077" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1923077" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2254902" sideWeight="0.8076923" order="0" side_tool="false" content_ui="combo" />
@@ -682,16 +691,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/tables_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" />
+        <state line="4" column="44" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/new.html.haml">
@@ -710,7 +714,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" />
+        <state line="7" column="46" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -732,11 +738,6 @@
         <state line="7" column="24" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.tablesorter.js">
@@ -769,26 +770,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="36" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="0" selection-end="258" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="42" selection-start="884" selection-end="884" vertical-scroll-proportion="-8.375">
+        <state line="6" column="45" selection-start="195" selection-end="195" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tables/create.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="40" selection-start="1291" selection-end="1291" vertical-scroll-proportion="-13.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tables_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+        <state line="15" column="41" selection-start="188" selection-end="188" vertical-scroll-proportion="0.54744524">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="36" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.67196816">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

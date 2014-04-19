@@ -1,0 +1,58 @@
+%div.container
+  %h1 Tables
+
+  Parsing File
+
+  %div.progress.progress-striped.active{:style => 'width: 40%;'}
+    %div.bar.progress{:style => 'width: 20%;'}
+
+  %div.panel.panel-default
+    %table.table.table-bordered.table-striped#main_data
+      %thead
+        %tr
+          %th
+            /%i.icon-arrow-down
+            %div.headerCellDiv
+            first_name
+          %th
+            %div.headerCellDiv
+            last_name
+          %th
+            %div.headerCellDiv
+            street_address
+          %th
+            %div.headerCellDiv
+            city
+          %th
+            %div.headerCellDiv
+            state
+          %th
+            %div.headerCellDiv
+            zip
+          %th
+            %div.headerCellDiv
+            bar_visits
+        %tr
+          %td
+            %input.span2.colSearch#search1
+          %td
+            %input.span2.colSearch#search2
+          %td
+            %input.span2.colSearch#search3
+          %td
+            %input.span2.colSearch#search4
+          %td
+            %input.span2.colSearch#search5
+          %td
+            %input.span2.colSearch#search6
+          %td
+            %input.span2.colSearch#search7
+      %tbody
+        - @records.each do |record|
+          - i = 0
+          %tr
+            - fields = record.split("|")
+            - fields.each do |field|
+              %td{:class => ("cell" + (i + 1).to_s)}= field
+              - i = i + 1
+
