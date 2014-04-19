@@ -63,7 +63,8 @@ $(document).ready(function() {
         $.each(allFilters, function(key, value) {
 
             var rowSelect = "#main_data tbody " + key;
-            var $rows = $(rowSelect).filter(':visible');
+            var $rows = $(rowSelect);
+            //var $rows = $(rowSelect).filter(':visible');
 
             var searchText = $(value).val().replace(/ +/g, ' ');
 
