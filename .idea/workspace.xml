@@ -14,7 +14,7 @@
     <file path="/index.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397439834181" ignored="false" />
     <file path="/new.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397847024836" ignored="false" />
     <file path="/bootstrap.css" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397612239195" ignored="false" />
-    <file path="/application.js" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397854131530" ignored="false" />
+    <file path="/application.js" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397866097176" ignored="false" />
     <file path="/application.css" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397653104305" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="60" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.7160804">
+            <state line="69" column="52" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.6407035">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -737,7 +737,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.tablesorter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1713" column="11" selection-start="84024" selection-end="84024" vertical-scroll-proportion="0.0" />
+        <state line="1713" column="11" selection-start="84024" selection-end="84024" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
@@ -770,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="60" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.7160804">
+        <state line="69" column="52" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.6407035">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

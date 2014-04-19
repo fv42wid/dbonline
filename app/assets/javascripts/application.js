@@ -57,11 +57,17 @@ $(document).ready(function() {
     //store each search param in a global array
     //call filterColumn() for each value in the global array
 
+    //global object to hold all filters
+    var allFilters = new Object();
+
     function filterColumn(element, tableColumn) {
 
         var rowSelect = "#main_data tbody " + tableColumn;
         var $rows = $(rowSelect);
         var searchText = $(element).val().replace(/ +/g, ' ');
+
+        //save search params
+        allFilters[element.attr('id')] = searchText;
 
         $('tr').show();
         $rows.filter(function() {
