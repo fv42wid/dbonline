@@ -13,15 +13,17 @@ class TablesController < ApplicationController
 
   def create
 
-    #TODO get column headers from @header
-    loaded_file = params[:file].tempfile;
-    file_text = File.read(loaded_file);
+    #read loaded file
+    loaded_file = params[:file].tempfile
+    file_text = File.read(loaded_file)
 
-    @records = file_text.split("\n");
-    @header = @records[0];
-    @records.delete_at(0);
-    #debugger;
-
+    #split file into header and record arrays
+    #TODO handle case where there is no header row
+    @records = file_text.split("\n")
+    header = @records[0]
+    @headers = header.split("|")
+    @records.delete_at(0)
+    
   end
 
 end

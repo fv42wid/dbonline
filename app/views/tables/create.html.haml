@@ -10,43 +10,16 @@
     %table.table.table-bordered.table-striped#main_data
       %thead
         %tr
-          %th
-            /%i.icon-arrow-down
-            %div.headerCellDiv
-            first_name
-          %th
-            %div.headerCellDiv
-            last_name
-          %th
-            %div.headerCellDiv
-            street_address
-          %th
-            %div.headerCellDiv
-            city
-          %th
-            %div.headerCellDiv
-            state
-          %th
-            %div.headerCellDiv
-            zip
-          %th
-            %div.headerCellDiv
-            bar_visits
+          - @headers.each do |column_header|
+            %th
+              %div.headerCellDiv
+              = column_header
         %tr
-          %td
-            %input.span2.colSearch#search1
-          %td
-            %input.span2.colSearch#search2
-          %td
-            %input.span2.colSearch#search3
-          %td
-            %input.span2.colSearch#search4
-          %td
-            %input.span2.colSearch#search5
-          %td
-            %input.span2.colSearch#search6
-          %td
-            %input.span2.colSearch#search7
+          - i = 1
+          - @headers.each do
+            %td
+              %input.span2.colSearch{:id => "search" + i.to_s}
+              - i = i + 1
       %tbody
         - @records.each do |record|
           - i = 0
