@@ -19,6 +19,7 @@ class TablesController < ApplicationController
 
     #split file into header and record arrays
     #TODO handle case where there is no header row
+    #TODO show loader progress, then replace with table
     @records = file_text.split("\n")
     header = @records[0]
     @headers = header.split("|")
