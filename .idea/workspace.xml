@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tables/create.html.haml" afterPath="$PROJECT_DIR$/app/views/tables/create.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tables_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
     </list>
     <ignored path="dbonline.iws" />
@@ -46,10 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tables_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="70" selection-start="808" selection-end="808" vertical-scroll-proportion="0.51758796">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tables_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/tables_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="472" selection-end="472" vertical-scroll-proportion="0.74209243">
+            <state line="25" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,11 +90,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/tables/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/tables/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/tables/create.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
     </option>
   </component>
@@ -760,15 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="36" selection-start="2048" selection-end="2048" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="44" selection-start="0" selection-end="258" vertical-scroll-proportion="-2.5">
@@ -792,8 +794,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tables_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="472" selection-end="472" vertical-scroll-proportion="0.74209243">
+        <state line="25" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="70" selection-start="808" selection-end="808" vertical-scroll-proportion="0.51758796">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

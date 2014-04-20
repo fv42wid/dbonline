@@ -23,7 +23,7 @@ class TablesController < ApplicationController
     header = @records[0]
     @headers = header.split("|")
     @records.delete_at(0)
-    
+
   end
 
 end

@@ -19,6 +19,7 @@ $(document).ready(function() {
     $('#main_data').tablesorter();
 
     //Click Columns to Sort
+    //TODO figure out how to NOT sort when I click in the search field
 
     $('th').click(function() {
         //$('th').removeClass();
