@@ -20,6 +20,11 @@ class TablesController < ApplicationController
     #split file into header and record arrays
     #TODO handle case where there is no header row
     #TODO show loader progress, then replace with table
+    # add the progress bar via jquery
+    # move the table code in the view into a partial
+    # create a new function in the table controller to parse the file
+    # make $.ajax call to the new parser function
+    # on success: replace the progress bar with html returned by the partial
     @records = file_text.split("\n")
     header = @records[0]
     @headers = header.split("|")
