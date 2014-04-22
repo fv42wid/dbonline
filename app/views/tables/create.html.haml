@@ -29,3 +29,17 @@
               %td{:class => ("cell" + (i + 1).to_s)}= field
               - i = i + 1
 
+  %div.pager#pager
+    %form
+      %img.first{:src => "http://mottie.github.com/tablesorter/addons/pager/icons/first.png"}
+      %img.prev{:src => "http://mottie.github.com/tablesorter/addons/pager/icons/prev.png"}
+      %span.pagedisplay
+        /<!-- this can be any element, including an input
+      %input.pagedisplay{:type => "text"}
+      %img.next{:src => "http://mottie.github.com/tablesorter/addons/pager/icons/next.png"}
+      %img.last{:src => "http://mottie.github.com/tablesorter/addons/pager/icons/last.png"}
+      %select.pagesize
+        %option{:selected => "selected", :value => "10"} 10
+        %option{:value => "20"} 20
+        %option{:value => "30"} 30
+        %option{:value => "40"} 40

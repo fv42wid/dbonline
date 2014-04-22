@@ -16,10 +16,10 @@
 
 $(document).ready(function() {
 
-    $('#main_data').tablesorter();
+    $('#main_data').tablesorter().tablesorterPager({container: $("#pager")});
 
     //Click Columns to Sort
-    //TODO figure out how to NOT sort when I click in the search field
+    //TODO get pager working
     //http://tablesorter.com/docs/
     // for pagination http://tablesorter.com/docs/example-pager.html
 
@@ -41,6 +41,9 @@ $(document).ready(function() {
         }
 
     });
+
+    //pagination
+    //$('table').tablesorterPager({container: $("#pager")});
 
     //refactored search
 
