@@ -21,8 +21,6 @@ $(document).ready(function() {
     //Click Columns to Sort
     //TODO figure out how to NOT sort when I click in the search field
     //http://tablesorter.com/docs/
-    //look into http://tablesorter.com/docs/example-options-headers.html
-    // and http://tablesorter.com/docs/example-meta-headers.html
     // for pagination http://tablesorter.com/docs/example-pager.html
 
     $('th').click(function() {

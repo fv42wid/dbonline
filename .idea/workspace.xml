@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tables/create.html.haml" afterPath="$PROJECT_DIR$/app/views/tables/create.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dbonline.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +18,7 @@
     <file path="/bootstrap.css" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397612239195" ignored="false" />
     <file path="/application.js" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397919259152" ignored="false" />
     <file path="/application.css" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397653104305" ignored="false" />
-    <file path="/create.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1397956337563" ignored="false" />
+    <file path="/create.html.haml" changelist="0fbf41c9-6b2f-4248-b62e-5cdc7abc1a1a" time="1398126313582" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
       <file leaf-file-name="create.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tables/create.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="17" selection-start="419" selection-end="419" vertical-scroll-proportion="-6.125">
+            <state line="19" column="28" selection-start="477" selection-end="477" vertical-scroll-proportion="-7.375">
               <folding />
             </state>
           </provider>
@@ -48,7 +50,7 @@
       <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="68" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.6683417">
+            <state line="22" column="34" selection-start="843" selection-end="843" vertical-scroll-proportion="0.56532663">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -91,14 +93,14 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/tables/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/tables/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/tables/create.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/tables_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/tables/create.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
+    <option name="x" value="94" />
     <option name="y" value="84" />
     <option name="width" value="968" />
     <option name="height" value="648" />
@@ -608,7 +610,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="84" width="968" height="648" extended-state="0" />
+    <frame x="94" y="84" width="968" height="648" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -770,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="0" selection-end="258" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="45" selection-start="195" selection-end="195" vertical-scroll-proportion="0.23255815">
@@ -784,9 +779,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tables/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="0" selection-end="258" vertical-scroll-proportion="0.15503876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tables/create.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="419" selection-end="419" vertical-scroll-proportion="-6.125">
+        <state line="19" column="28" selection-start="477" selection-end="477" vertical-scroll-proportion="-7.375">
           <folding />
         </state>
       </provider>
@@ -800,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="68" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.6683417">
+        <state line="22" column="34" selection-start="843" selection-end="843" vertical-scroll-proportion="0.56532663">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
