@@ -19,7 +19,6 @@ $(document).ready(function() {
     $('#main_data').tablesorter().tablesorterPager({container: $("#pager")});
 
     //Click Columns to Sort
-    //TODO get pager working
     //http://tablesorter.com/docs/
     // for pagination http://tablesorter.com/docs/example-pager.html
 
@@ -28,13 +27,13 @@ $(document).ready(function() {
         var header = $(this);
 
         if(header.hasClass('headerSortDown')) {
-            $('th').removeClass();
+            $('th').removeClass('headerSortDown');
             $('i').remove();
             $(this).addClass('headerSortUp');
             $('<i class="icon-arrow-up"></i>').appendTo(header.find('div:first'));
 
         } else {
-            $('th').removeClass();
+            $('th').removeClass('headerSortUp');
             $('i').remove();
             $(this).addClass('headerSortDown');
             $('<i class="icon-arrow-down"></i>').appendTo(header.find('div:first'));
@@ -46,7 +45,7 @@ $(document).ready(function() {
     //$('table').tablesorterPager({container: $("#pager")});
 
     //refactored search
-
+/*
     //global object to hold all filters
     var allFilters = new Object();
 
@@ -83,5 +82,5 @@ $(document).ready(function() {
         });
 
     });
-
+*/
 });
